@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    //  "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=fnappvt035;AccountKey=qXmBe2gOtQhRH77bMOs/p1LHhpHqCPVzfoYN4tgL89UDJXp/OGXz2/nKJM6bqHy+BwMbzBXucLcr+AStSEISDQ==;EndpointSuffix=core.windows.net",
+
+    // "AzureWebJobsStorage":"DefaultEndpointsProtocol=https;AccountName=fnappvt035;AccountKey=qXmBe2gOtQhRH77bMOs/p1LHhpHqCPVzfoYN4tgL89UDJXp/OGXz2/nKJM6bqHy+BwMbzBXucLcr+AStSEISDQ==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+
+    "FUNCTIONS_EXTENSION_VERSION": "beta" // In Azure ~2
+
+  },
+  "Host": {
+    "CORS" :  "*" 
+  }
+}
